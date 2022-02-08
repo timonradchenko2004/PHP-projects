@@ -1,0 +1,19 @@
+.white{
+    background-color: white;
+}
+.black{
+    background-color: black;
+}
+table{
+    border:1px solid black;
+}
+td{
+   
+    text-align: center;
+}
+img{
+    width: 50%;
+    background-color: white;
+    padding: 1px;
+    transform: rotate(90deg);
+}
