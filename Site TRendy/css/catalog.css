@@ -1,0 +1,103 @@
+.catalog .container{
+    flex-direction: column;
+   align-items: center;
+    margin-bottom: 60px ;
+}
+.catalog .container .block{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    width:90%;
+}
+.catalog .container .block .x-cart { 
+    
+    border: 4px solid #55e1da;
+}
+.catalog .container .block p{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.catalog .container .block a  {
+    width: 25%;
+    max-width: 350px;
+    margin: 4% 3%;
+}
+.catalog .photo {
+    width: 100%;
+    max-width: 355px;
+    height: 355px;
+    background: lightgray;
+}
+.catalog .btn{
+    margin-top: 15px;
+    margin-bottom: 95px;
+
+}
+.catalog .photo img{
+    width: 100%;
+    height: 100%;
+}
+
+.block .x-cart:hover {
+    box-shadow: 0 0 30px 5px #55e1da;
+}
+
+.catalog h1 {
+    margin-bottom: 40px;
+}
+
+.catalog .close{
+    display: none;
+}
+
+.temp{
+    background: red;
+}
+.burger-ct img{
+    width: 100%;
+}
+
+
+
+
+
+
+@media screen and (min-width: 280px) and (max-width: 760px) {
+    
+    .catalog .container .block{
+        width: 100%;
+    }
+    .catalog .container .block a {
+        margin: 10px;
+        width: 310px;
+    }
+    .catalog .photo{
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 760px) and (max-width: 1200px) {
+    .catalog .container .block{
+        width: 100%;
+    }
+    .catalog .container .block a {
+        margin: 24px 15px;
+        width: 320px;
+    }
+    .catalog .photo{
+        width: 100%;
+    }
+
+    
+
+}
+
+
+
+
+
+
+

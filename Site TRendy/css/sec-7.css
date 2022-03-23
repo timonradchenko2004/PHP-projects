@@ -1,0 +1,82 @@
+.sec-7 .container{
+    flex-direction: column;
+    align-items: center;
+
+}
+.sec-7 .container .block{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width:100%;
+    height: 100%;
+    margin-bottom: 40px;
+}
+.sec-7 h1{
+    margin-bottom: 95px;
+}
+.sec-7 form{
+    width: 50%;
+    max-width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items:center  ;
+    justify-content: space-around;
+    border: 10px solid #D24944;
+    border-radius: 56px;
+    padding: 30px;
+    margin-bottom: 90px;    
+}
+label{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    text-align: left;
+    width: 90%;
+    margin-top:5px;
+
+
+}
+.sec-7 input{
+    width: 90%;
+    height: 60px;
+    font-size: 1rem;
+    border: none;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+.sec-7 textarea{
+    width: 90%;
+    height: 200px;
+    background: #FFFFFF;
+    font-size: 1rem;
+    resize: none;
+    margin: 20px;
+    border: none;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+.sec-7 .btn{
+    width: 85%;
+    height: 80px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 992px){
+}
+
+@media (min-width: 320px) and (max-width: 1001px) {
+    .sec-7 form{
+        width: 90%;
+        height: 600px;
+    
+    }
+    
+}

@@ -1,0 +1,117 @@
+.head-modal{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 85px;
+    left: 0;
+    z-index: 800;
+    background-color: white;
+}
+
+.head-modal .container{
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    
+
+}
+.head-modal .container .block{
+   margin: 0 auto;
+   width: 50%;
+   border:3px solid black
+
+}
+.head-modal .container .block nav{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    height: 100%;
+}
+.head-modal nav a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.4rem;
+    line-height: 30px;
+    padding:40px;
+    border-radius: 50px;
+    margin:25px 0;
+    position: relative;
+}
+.head-modal p{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 239%;
+    line-height: 30px;
+    padding: 20px;
+    border-radius: 50px;
+    margin:25px 0;
+}
+
+@media (min-width: 600px) {
+    .head-modal .container {
+        width: 50%;
+        height: 100%;
+    }
+    .head-modal {
+        background-color: transparent;
+        left: 30%;
+    }
+    .head-modal .container .block{
+        background-color: white;
+        height: auto;
+     }
+     .head-modal nav a{
+        font-size: 100%;
+        padding: 0;
+        margin: 10px;
+    }
+    
+}
+
+@media (min-width: 600px) and (max-width: 890px) {
+    .item .container .block{
+        width: 90%;
+        height: 800px;
+        
+    }
+    
+}
+
+@media screen and (min-width: 280px) and (max-width: 600px) {
+    
+    .head-modal nav a{
+        font-size: 200%;
+    
+    }
+    .product-mod{
+        top: 100px;
+    
+    }
+    .head-modal .container .block{
+        border:none;
+        width: 100%;
+     }
+
+}
+nav a:after {
+	display: block;
+	position: absolute;
+	left: 0; 
+	width: 0;
+	height: 2px; 
+	background-color: black; 
+	content: "";
+	transition: width 0.3s ease-out; 
+}
+
+nav a:hover:after,
+nav a:focus:after {
+	width: 100%; 
+}

@@ -1,0 +1,44 @@
+.sec-5{
+    background: linear-gradient(180deg, #50E0D9 0%, rgba(224, 255, 253, 0) 100%);}
+.sec-5 .container{
+    flex-direction: column;
+    align-items: center;
+
+}
+.sec-5 .container .block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    width:80%;
+    height: 100%;
+    margin-bottom: 95px;
+
+}
+.sec-5 .text{
+   text-align: center;
+   font-weight: 400;
+    font-size: 29px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    margin: 60px 0;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+
+}
+.sec-5 .text p{
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+@media (min-width: 280px) and (max-width: 620px) {
+    .sec-5 .text{
+    font-size: 24px;
+    line-height: 45px;
+
+}
+
+}

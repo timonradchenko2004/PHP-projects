@@ -1,0 +1,81 @@
+
+.item .container .block{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   width:55%;
+   height: auto;
+}
+.item .item-cart{
+    width: 100%;
+    height: 513px;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: space-between;
+    background: white;
+    padding: 20px;
+
+}
+.item .text-block{
+    height: 80%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.item .text {
+    margin-top: 85px;
+}
+
+.show{
+    display: flex;
+}
+.item .close{
+    width: 30px;
+    cursor: pointer;
+    position: relative;
+    top: -220px;
+    left: 94%;
+    z-index: 1;
+
+}
+.item .close .photo-close{
+    background: none;
+    width: 100%;
+    height: 100%;
+    margin-left: 1px;
+}
+.item .item-cart .photo{
+    width: 105rem;
+    max-width: 455px;
+    height: 105rem;
+    max-height: 455px;
+    background: lightgray;
+}
+
+
+
+
+
+
+@media (min-width: 600px) and (max-width: 890px) {
+    .item .container .block{
+        width: 90%;
+        height: 800px;
+    
+    }
+    
+}
+
+@media screen and (min-width: 280px) and (max-width: 600px) {
+    
+    .item .container .block{
+        width: 90%;
+        height: 800px;
+    
+    }
+
+}

@@ -1,0 +1,51 @@
+.product-c .menu{
+    width: 30%;
+    padding: 10px;
+    border-right: 1px solid gray;
+    margin: 0 auto;
+}
+.product-c .menu .block-pr{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    margin: 0;
+}
+.men_block {
+    padding: 20px;
+}
+.product-c .menu .container{
+    height: 100%;
+    margin: 0;
+}
+.product-c .menu .block-m .text{
+    width: 100%;
+    padding: 10px;
+  	font-size: 2rem;
+
+}
+.product-c .block-m{
+    max-width: 300px;
+    width:100%;
+}
+
+.product-c h1{
+    text-align: left;
+}
+
+
+
+@media (min-width: 280px) and (max-width: 635px) {
+    .product-c .menu .block-m .text{
+  	    font-size: 1.1rem;
+
+    }
+    .product-c .menu{
+    width: 38%;
+    
+    }
+
+
+}
